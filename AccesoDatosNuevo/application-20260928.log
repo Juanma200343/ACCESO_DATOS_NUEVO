@@ -1,0 +1,4 @@
+2026-09-28 12:27:55.642 [main] DEBUG EjercicioTiendaOnline.modelo.EnviadorEmail - Empieza main
+2026-09-28 12:27:55.644 [main] ERROR EjercicioTiendaOnline.modelo.EnviadorEmail - Ocurre excepción
+2026-09-28 12:28:50.703 [main] DEBUG EjercicioTiendaOnline.modelo.EnviadorEmail - Empieza main hahahahaha
+2026-09-28 12:28:50.705 [main] ERROR EjercicioTiendaOnline.modelo.EnviadorEmail - Ocurre excepción
