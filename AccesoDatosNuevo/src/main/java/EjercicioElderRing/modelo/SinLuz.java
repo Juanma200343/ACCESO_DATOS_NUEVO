@@ -2,14 +2,15 @@ package EjercicioElderRing.modelo;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 public class SinLuz implements Comparable<SinLuz>{
 	private static int contador;
 	private int id;
 	private String nombre;
-	private List<Encuentro> encuentros;
+	private Set<Encuentro> encuentros;
 	
-	public SinLuz(int id, String nombre, List<Encuentro> encuentros) {
+	public SinLuz(int id, String nombre, Set<Encuentro> encuentros) {
 		super();
 		this.contador = contador ++;
 		this.id = contador;
@@ -33,11 +34,11 @@ public class SinLuz implements Comparable<SinLuz>{
 		this.nombre = nombre;
 	}
 
-	public List<Encuentro> getEncuentros() {
+	public Set<Encuentro> getEncuentros() {
 		return encuentros;
 	}
 
-	public void setEncuentros(List<Encuentro> encuentros) {
+	public void setEncuentros(Set<Encuentro> encuentros) {
 		this.encuentros = encuentros;
 	}
 
