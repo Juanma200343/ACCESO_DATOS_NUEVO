@@ -1,37 +1,45 @@
-package Tema1.BoletinFicheros.Ejercicio1;
+package Tema1.BoletinFicheros.Ejercicio4;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.Scanner;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import Tema1.BoletinFicheros.Ejercicio4.Ejercicio4;
+import Tema1.BoletinFicheros.Ejercicio1.RutaNoValidaException;
 import Tema1.ejemplosFicheros.EjemploFichero;
 
-public class Ejercicio1 {
+public class Ejercicio4 {
 	
-	private static final Logger logger = LogManager.getLogger(EjemploFichero.class);
+	private static final Logger logger = LogManager.getLogger(Ejercicio4.class);
 	
 	 String rutaDirectorio = "src\\main\\resources";
-	 
-	 
 	
-
-	public static void main(String[] args){
+	 public void mostrarInformacion(String nombreYRutaFichero) {
+		 File f = new File(nombreYRutaFichero);
+		 if(f == null) {
+			
+		 }else {
+			 for(File f1 : f.listFiles()) {
+				 mostrarInformacion(f1.getAbsolutePath()); //Llamada recursiva de cada hijo
+			 }
+		 }
+	 }
+	
+	 
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		Ejercicio4 ej = new Ejercicio4();
 		
         Scanner teclado = new Scanner(System.in);
         try {
             // Pedimos la ruta
             System.out.println("Introduce la ruta del directorio:");
             String ruta = teclado.nextLine();
-
+            
             // Creamos el objeto File
             File directorio = new File(ruta);
-
+            
             // Comprobamos que existe
             if (!directorio.exists()) {
                 throw new RutaNoValidaException("La ruta no existe.");
@@ -51,40 +59,15 @@ public class Ejercicio1 {
                         "No se puede leer el contenido del directorio."
                 );
             }
-
-            int totalFicheros = 0;
-            int totalDirectorios = 0;
-
-            // Recorremos los elementos
-            for (File elemento : elementos) {
-
-                if (elemento.isFile()) {
-                    System.out.println("[F] " + elemento.getName());
-                    totalFicheros++;
-
-                } else if (elemento.isDirectory()) {
-                    System.out.println("[D] " + elemento.getName());
-                    totalDirectorios++;
-                }
-            }
-
-            // Mostramos los totales
-            System.out.println();
-            System.out.println("Total de ficheros: " + totalFicheros); 	
-            System.out.println("Total de directorios: " + totalDirectorios);
-            
-            
-
-        } catch (RutaNoValidaException e) {
-
-            logger.error("Error");
-
-        } finally {
-            teclado.close();
-        }
         
-        
- 
+
+	}catch (RutaNoValidaException e) {
+
+        logger.error("Error");
+
+    } finally {
+        teclado.close();
+    }
+
 	}
-
 }

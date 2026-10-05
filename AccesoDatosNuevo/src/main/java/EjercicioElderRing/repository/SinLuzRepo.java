@@ -1,16 +1,20 @@
 package EjercicioElderRing.repository;
 
+import java.util.Map;
 import java.util.Set;
 
+import EjercicioElderRing.modelo.Encuentro;
 import EjercicioElderRing.modelo.SinLuz;
 
 public class SinLuzRepo {
 	
-	Set<SinLuz> listaSinLuz;
+	private Map<SinLuz,Encuentro> map;
 
-	public SinLuzRepo(Set<SinLuz> listaSinLuz) {
+	
+
+	public SinLuzRepo(Map<SinLuz, Encuentro> map) {
 		super();
-		this.listaSinLuz = listaSinLuz;
+		this.map = map;
 	}
 
 	public void getSinLuz() {
@@ -20,13 +24,11 @@ public class SinLuzRepo {
 	public void agregaEncuentro() {
 		
 	}
-	
+
 	@Override
 	public String toString() {
-		return "SinLuzRepo [listaSinLuz=" + listaSinLuz + "]";
+		return "SinLuzRepo [map=" + map + "]";
 	}
 
-	
-	
-	
+
 }
