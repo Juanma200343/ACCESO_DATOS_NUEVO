@@ -1,0 +1,19 @@
+2026-10-07 14:07:54.453 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - El directorio ya existe.
+2026-10-07 14:07:54.455 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - lectura.txt creado correctamente.
+2026-10-07 14:07:54.456 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - normal.txt ya existía.
+2026-10-07 14:07:54.456 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - lectura.txt se ha puesto en solo lectura.
+2026-10-07 14:07:54.456 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Permisos de lectura.txt
+2026-10-07 14:07:54.456 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Lectura: true
+2026-10-07 14:07:54.456 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Escritura: false
+2026-10-07 14:07:54.457 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Ejecución: true
+2026-10-07 14:07:54.457 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Permisos de normal.txt
+2026-10-07 14:07:54.457 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Lectura: true
+2026-10-07 14:07:54.457 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Escritura: true
+2026-10-07 14:07:54.457 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Ejecución: true
+2026-10-07 14:07:54.458 [main] ERROR Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - No se ha podido renombrar el fichero.
+2026-10-07 14:07:54.458 [main] ERROR Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - No se ha podido borrar. Quitando solo lectura...
+2026-10-07 14:07:54.458 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Se ha quitado la marca de solo lectura.
+2026-10-07 14:07:54.458 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - lectura.txt se ha borrado correctamente.
+2026-10-07 14:07:54.459 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - Contenido final de miDirectorio:
+2026-10-07 14:07:54.459 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - normal.txt
+2026-10-07 14:07:54.459 [main] INFO  Tema1.BoletinFicheros.Ejercicio3.Ejercicio3 - renombrado.txt
