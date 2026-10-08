@@ -95,12 +95,6 @@ public class Ejercicio3 {
 
                 logger.info("Se ha quitado la marca de solo lectura.");
 
-                if (a1.delete()) {
-                    logger.info("lectura.txt se ha borrado correctamente.");
-                } else {
-                    logger.error("No se ha podido borrar lectura.txt.");
-                }
-
             } else {
                 logger.error("No se ha podido quitar la marca de solo lectura.");
             }
