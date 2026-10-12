@@ -1,0 +1,22 @@
+2026-10-12 15:10:46.343 [main] ERROR Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - No se ha podido mostrar el contenido del directorio.
+2026-10-12 15:14:20.595 [main] ERROR Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - No se ha podido mostrar el contenido del directorio.
+2026-10-12 15:15:51.463 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - Los 5 ficheros más grandes:
+2026-10-12 15:15:51.469 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - TareaClase6Octubre - Tamaño: 0 bytes
+2026-10-12 15:15:51.471 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - GitHub Optativa.txt - Tamaño: 40 bytes
+2026-10-12 15:15:51.472 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico3.js - Tamaño: 117 bytes
+2026-10-12 15:15:51.473 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico1.js - Tamaño: 251 bytes
+2026-10-12 15:15:51.474 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico2.js - Tamaño: 289 bytes
+2026-10-12 15:15:51.487 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - Ficheros ordenados por fecha de modificación:
+2026-10-12 15:15:51.490 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .git - Fecha: 1791809087737
+2026-10-12 15:15:51.491 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - TareaClase6Octubre - Fecha: 1791809087659
+2026-10-12 15:15:51.492 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - PRÁCTICA 1A DOM Javascript - Fecha: 1791809087659
+2026-10-12 15:15:51.493 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - TareaClase1Octubre - Fecha: 1791224633785
+2026-10-12 15:15:51.494 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - TAREA PRACTICA EVALUABLE 1_Juanma.zip - Fecha: 1791224633775
+2026-10-12 15:15:51.495 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - TAREA PRACTICA EVALUABLE 1 - Fecha: 1791224633766
+2026-10-12 15:15:51.497 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - GitHub Optativa.txt - Fecha: 1791224633744
+2026-10-12 15:15:51.498 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico3.js - Fecha: 1790527421531
+2026-10-12 15:15:51.500 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico3.html - Fecha: 1790527421529
+2026-10-12 15:15:51.501 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico2.js - Fecha: 1790527421527
+2026-10-12 15:15:51.502 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico2.html - Fecha: 1790527421524
+2026-10-12 15:15:51.505 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico1.js - Fecha: 1790527421520
+2026-10-12 15:15:51.506 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - EjercicioPractico1.html - Fecha: 1790527421516

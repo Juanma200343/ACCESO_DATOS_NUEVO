@@ -7,38 +7,42 @@ import java.util.Comparator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 public class Ejercicio8 {
-	
+
     private static final Logger logger = LogManager.getLogger(Ejercicio8.class);
 
+    public static void main(String[] args) {
 
+        String carpetaUsuario = System.getProperty("C:\\Users\\Juanm\\OneDrive\\Escritorio\\2ºDAM\\OPTATIVA FULL STACK\\OPTATIVA");
+        File directorio = new File(carpetaUsuario, "C:\\Users\\Juanm\\OneDrive\\Escritorio\\2ºDAM\\OPTATIVA FULL STACK\\OPTATIVA");
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-	    String carpetaUsuario = System.getProperty("user.home");
+        File[] contenido = directorio.listFiles();
 
-		 File directorio = new File(carpetaUsuario, "Ejercicio8");
+        if (contenido != null) {
 
-		  File[] contenido = directorio.listFiles();
-		  
-		 
-		  Arrays.sort(contenido, new ComparadorTamano());
-		  
+            // Ordenar por tamaño, de mayor a menor
+            Arrays.sort(contenido, new ComparadorTamano());
 
-	      /*  if (contenido != null) {
+            logger.info("Los 5 ficheros más grandes:");
 
-	            logger.info("Contenido final de miDirectorio:");
+            for (int i = 0; i < contenido.length && i < 5; i++) {
+                logger.info(contenido[i].getName()
+                        + " - Tamaño: " + contenido[i].length() + " bytes");
+            }
 
-	            for (String nombre : contenido) {
-	                logger.info(nombre);
-	            }
+            // Ordenar por fecha, de más reciente a más antiguo
+            Arrays.sort(contenido,
+                    Comparator.comparingLong(File::lastModified).reversed());
 
-	        } else {
-	            logger.error("No se ha podido mostrar el contenido.");
-	        }*/
-		
-	}
+            logger.info("Ficheros ordenados por fecha de modificación:");
 
+            for (File fichero : contenido) {
+                logger.info(fichero.getName()
+                        + " - Fecha: " + fichero.lastModified());
+            }
+
+        } else {
+            logger.error("No se ha podido mostrar el contenido del directorio.");
+        }
+    }
 }
