@@ -9,12 +9,13 @@ import org.apache.logging.log4j.Logger;
 
 public class Ejercicio8 {
 
-    private static final Logger logger = LogManager.getLogger(Ejercicio8.class);
+    private static final String RUTA = "src\\main\\resources";
+	private static final Logger logger = LogManager.getLogger(Ejercicio8.class);
 
     public static void main(String[] args) {
 
-        String carpetaUsuario = System.getProperty("C:\\Users\\Juanm\\OneDrive\\Escritorio\\2ºDAM\\OPTATIVA FULL STACK\\OPTATIVA");
-        File directorio = new File(carpetaUsuario, "C:\\Users\\Juanm\\OneDrive\\Escritorio\\2ºDAM\\OPTATIVA FULL STACK\\OPTATIVA");
+        String carpetaUsuario = System.getProperty(RUTA);
+        File directorio = new File(carpetaUsuario, RUTA);
 
         File[] contenido = directorio.listFiles();
 

@@ -1,0 +1,16 @@
+2026-10-15 08:24:55.951 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - Los 5 ficheros más grandes:
+2026-10-15 08:24:55.953 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .gitignore - Tamaño: 12 bytes
+2026-10-15 08:24:55.953 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .project - Tamaño: 222 bytes
+2026-10-15 08:24:55.953 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .git - Tamaño: 4096 bytes
+2026-10-15 08:24:55.953 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .metadata - Tamaño: 4096 bytes
+2026-10-15 08:24:55.955 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - AccesoDatosNuevo - Tamaño: 4096 bytes
+2026-10-15 08:24:55.957 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - Ficheros ordenados por fecha de modificación:
+2026-10-15 08:24:55.958 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - AccesoDatosNuevo - Fecha: 1792045495807
+2026-10-15 08:24:55.958 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .git - Fecha: 1791871549345
+2026-10-15 08:24:55.958 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .project - Fecha: 1790834900585
+2026-10-15 08:24:55.958 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .gitignore - Fecha: 1790236334235
+2026-10-15 08:24:55.959 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - .metadata - Fecha: 1790236314134
+2026-10-15 08:26:15.040 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - Los 5 ficheros más grandes:
+2026-10-15 08:26:15.043 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - log4j2.xml - Tamaño: 697 bytes
+2026-10-15 08:26:15.045 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - Ficheros ordenados por fecha de modificación:
+2026-10-15 08:26:15.045 [main] INFO  Tema1.BoletinFicheros.Ejercicio8.Ejercicio8 - log4j2.xml - Fecha: 1790235477401
