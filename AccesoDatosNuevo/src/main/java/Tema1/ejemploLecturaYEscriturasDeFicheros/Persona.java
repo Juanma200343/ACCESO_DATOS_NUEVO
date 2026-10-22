@@ -24,6 +24,13 @@ public class Persona {
 	
 	String nombre ;
 	List<Integer> notas;
+	
+	
+
+	public Persona(String nombre) {
+		super();
+		this.nombre = nombre;
+	}
 
 	public Persona(String nombre, List<Double> notas2) {
 		super();
@@ -104,19 +111,6 @@ public class Persona {
 	            out.close();
 	        }
 	    }
-	}
-
-	public static void main(String[] args) {
-	    List<Double> notas = new ArrayList<>();
-	    notas.add(7.5);
-	    notas.add(8.25);
-
-	    List<Persona> personas = new ArrayList<>();
-
-	    Persona p = new Persona("Andra", notas);
-	    personas.add(p);
-
-	    p.escribePersonas(personas, "personas.txt");
 	}
 
 }
