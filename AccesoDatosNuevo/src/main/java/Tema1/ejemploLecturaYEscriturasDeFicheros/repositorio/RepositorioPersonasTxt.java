@@ -112,4 +112,20 @@ public class RepositorioPersonasTxt implements IRepositorioPersonas {
 		return personas;
 	}
 
+
+
+	@Override
+	public Persona findById(String nombre) throws RepositorioException {
+		// TODO Auto-generated method stub
+		  Persona personaEncontrada = null;
+
+		    for (Persona persona : personas) {
+		        if (persona.getNombre().equals(nombre)) {
+		            personaEncontrada = persona;
+		        }
+		    }
+
+		    return personaEncontrada;
+	}
+	
 }

@@ -11,10 +11,10 @@ public interface IRepositorioPersonas {
 	   
 
 	   
-	  /* Persona findById(String nombre) throws RepositorioException;
+	   Persona findById(String nombre) throws RepositorioException;
 	   //Puede devolver null si no hay una persona con eses nombre
 	   
-	   boolean existsById(String nombre) throws RepositorioException;
+	  /* boolean existsById(String nombre) throws RepositorioException;
 	   void save(Persona persona) throws RepositorioException;         
 	   // alta o modificación Escribe fichero
 	   
