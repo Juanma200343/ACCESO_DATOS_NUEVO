@@ -127,5 +127,44 @@ public class RepositorioPersonasTxt implements IRepositorioPersonas {
 
 		    return personaEncontrada;
 	}
+
+	private void cargarSiHaceFalta() {
+		if(personas == null) {
+			try {
+				findAll();
+			} catch (RepositorioException e) {
+				// TODO Auto-generated catch block
+				logger.debug("Salta RepositorioException" + e);
+			}
+		}
+	}
+
+
+	@Override
+	public boolean existsById(String nombre) throws RepositorioException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+
+	@Override
+	public void save(Persona persona) throws RepositorioException {
+		// TODO Auto-generated method stub
+		cargarSiHaceFalta();
+		List<Persona> copiaPersonas = new ArrayList<Persona>();
+		findById(persona.getNombre());
+		//if()
+	}
+
+
+
+	@Override
+	public boolean deleteById(String nombre) throws RepositorioException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
 	
 }
