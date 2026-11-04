@@ -154,7 +154,8 @@ public class RepositorioPersonasTxt implements IRepositorioPersonas {
 		cargarSiHaceFalta();
 		List<Persona> copiaPersonas = new ArrayList<Persona>();
 		findById(persona.getNombre());
-		//if()
+	
+		
 	}
 
 

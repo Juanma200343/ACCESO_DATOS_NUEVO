@@ -6,9 +6,10 @@ import java.util.List;
 
 import com.google.gson.Gson;
 
+import Tema1.ejemploLecturaYEscriturasDeFicheros.RepositorioException;
 import Tema1.ejemploLecturaYEscriturasDeFicheros.Modelo.Persona;
 
-public class RepositorioPersonasJson {
+public class RepositorioPersonasJson implements IRepositorioPersonas {
 	
 	private static final String  rutaDirectorioPadre = "src\\main\\resources";
 	private static final String rutaDirectorioHijo = "src\\main\\java\\Tema1\\ejemploLecturaYEscriturasDeFicheros\\repositorio\\RepositorioPersonasJson.java";
@@ -46,6 +47,36 @@ public class RepositorioPersonasJson {
 
 	public void setPersonas(List<Persona> personas) {
 		this.personas = personas;
+	}
+
+	@Override
+	public List<Tema1.ejemploLecturaYEscriturasDeFicheros.Persona> findAll() throws RepositorioException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Tema1.ejemploLecturaYEscriturasDeFicheros.Persona findById(String nombre) throws RepositorioException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean existsById(String nombre) throws RepositorioException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void save(Tema1.ejemploLecturaYEscriturasDeFicheros.Persona persona) throws RepositorioException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean deleteById(String nombre) throws RepositorioException {
+		// TODO Auto-generated method stub
+		return false;
 	} 
 	
 	
