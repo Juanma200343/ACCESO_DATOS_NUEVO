@@ -8,6 +8,7 @@ public class Persona {
 	private double nota_max;
 	private String nombre;
 	private List<Double> notas;
+	
 	public Persona(String nombre, List<Double> notas) {
 		super();
 		this.nombre = nombre;
