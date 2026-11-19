@@ -54,8 +54,6 @@ public class UtilesDomXML {
     public List<Libro> leerLibrosDesdeXML(){
 		List<Libro> libros = new ArrayList<Libro>();
     	
-    	
-    	
     	return libros;
     	
     }
