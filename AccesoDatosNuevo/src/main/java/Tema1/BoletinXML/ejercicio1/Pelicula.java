@@ -103,8 +103,4 @@ public class Pelicula {
 		return "Pelicula [titulo=" + titulo + ", ano=" + ano + ", director=" + director + "]";
 	}
 
-	
-	
-	
-	
 }

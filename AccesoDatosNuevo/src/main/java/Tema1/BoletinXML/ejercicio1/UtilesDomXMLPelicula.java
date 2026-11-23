@@ -43,7 +43,7 @@ public class UtilesDomXMLPelicula {
 			Element tituloElemento = (Element) raiz.getElementsByTagName("Titulo").item(0);  
 			Element duracionElemento = (Element) raiz.getElementsByTagName("Duracion").item(0);
 			Element generoElemento = (Element)  raiz.getElementsByTagName("Genero").item(0);
-			Element sinopsisElemento = (Element)  raiz.getElementsByTagName("Sinopsis").item(0);
+			Element sinopsisElemento = (Element)  raiz.getElementsByTagName("sinopsis").item(0);
 			Element anoElemento = (Element)  raiz.getElementsByTagName("Fecha").item(0);
 			Element directorElemento = (Element)  raiz.getElementsByTagName("Director").item(0);
 			
