@@ -5,6 +5,8 @@ import java.util.List;
 
 import Tema1.Boletin2XML.ejercicio1.modelo.Empleado;
 import Tema1.Boletin2XML.ejercicio1.modelo.Puesto;
+import Tema1.Boletin2XML.ejercicio1.repositorio.UtilesXMLDom;
+import ejemploLecturaXML.UtilesDomXML;
 
 public class GestionaEmpleadosXML {
 
@@ -27,6 +29,11 @@ public class GestionaEmpleadosXML {
 		empleados.add(e2);
 		empleados.add(e3);
 		empleados.add(e4);
+		
+		UtilesXMLDom utiles = new UtilesXMLDom();
+		utiles.escribeEmpleadoEnXML("empleados.xml", empleados);
+		
+		//List<Empleado> em2 = utiles.leerEmpleadosDesdeXML();
 	}
 
 }

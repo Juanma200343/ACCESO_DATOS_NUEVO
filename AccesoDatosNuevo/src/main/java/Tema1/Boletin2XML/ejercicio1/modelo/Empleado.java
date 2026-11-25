@@ -14,6 +14,16 @@ public class Empleado {
 		this.empresa = empresa;
 		this.puesto = puesto;
 	}
+	
+	public Empleado(String id, String nombreApellidos, int edad, String empresa, Puesto puesto) {
+		super();
+		this.id = id;
+		this.nombreApellidos = nombreApellidos;
+		this.edad = edad;
+		this.empresa = empresa;
+		this.puesto = puesto;
+	}
+
 
 	public String getId() {
 		return id;
@@ -53,6 +63,12 @@ public class Empleado {
 
 	public void setPuesto(Puesto puesto) {
 		this.puesto = puesto;
+	}
+
+	@Override
+	public String toString() {
+		return "Empleado [id=" + id + ", nombreApellidos=" + nombreApellidos + ", edad=" + edad + ", empresa=" + empresa
+				+ ", puesto=" + puesto + "]";
 	}
 
 	

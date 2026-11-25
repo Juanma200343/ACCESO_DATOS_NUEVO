@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+	<empleado>
+		<nombreApellido>Juan Pérez</nombreApellido>
+		<empresa>Empresa</empresa>
+		<edad>0</edad>
+		<puesto>
+			<nombrePuesto>Analista de Marketing</nombrePuesto>
+			<salario>35000</salario>
+		</puesto>
+	</empleado>
+	<empleado>
+		<nombreApellido>María Pérez Sánchez</nombreApellido>
+		<empresa>Microsoft</empresa>
+		<edad>0</edad>
+		<puesto>
+			<nombrePuesto>Diseñadora</nombrePuesto>
+			<salario>28000</salario>
+		</puesto>
+	</empleado>
+	<empleado>
+		<nombreApellido>Carlos Ruiz Martín</nombreApellido>
+		<empresa>Amazon</empresa>
+		<edad>0</edad>
+		<puesto>
+			<nombrePuesto>Jefe de equipo</nombrePuesto>
+			<salario>35000</salario>
+		</puesto>
+	</empleado>
+	<empleado>
+		<nombreApellido>Laura Fernández Díaz</nombreApellido>
+		<empresa>Apple</empresa>
+		<edad>0</edad>
+		<puesto>
+			<nombrePuesto>Analista</nombrePuesto>
+			<salario>30000</salario>
+		</puesto>
+	</empleado>
+</empleados>

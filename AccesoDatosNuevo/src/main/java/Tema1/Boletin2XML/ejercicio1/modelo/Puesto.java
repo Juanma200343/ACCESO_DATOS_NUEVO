@@ -11,6 +11,54 @@ public class Puesto {
 		this.nombrePuesto = nombrePuesto;
 		this.salario = salario;
 	}
+
+	public Puesto(String id, String nombrePuesto, String departamento, int salario) {
+		super();
+		this.id = id;
+		this.nombrePuesto = nombrePuesto;
+		this.departamento = departamento;
+		this.salario = salario;
+	}
+	
+	
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getNombrePuesto() {
+		return nombrePuesto;
+	}
+
+	public void setNombrePuesto(String nombrePuesto) {
+		this.nombrePuesto = nombrePuesto;
+	}
+
+	public String getDepartamento() {
+		return departamento;
+	}
+
+	public void setDepartamento(String departamento) {
+		this.departamento = departamento;
+	}
+
+	public int getSalario() {
+		return salario;
+	}
+
+	public void setSalario(int salario) {
+		this.salario = salario;
+	}
+
+	@Override
+	public String toString() {
+		return "Puesto [id=" + id + ", nombrePuesto=" + nombrePuesto + ", departamento=" + departamento + ", salario="
+				+ salario + "]";
+	}
 	
 
 	
