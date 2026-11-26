@@ -1,4 +1,4 @@
-package Tema1.Boletin2XML.ejercicio1.modelo;
+package Tema1.Boletin2XML.ejercicio1.modelo;//
 
 public class Empleado {
 	

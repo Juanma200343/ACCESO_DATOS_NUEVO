@@ -1,6 +1,8 @@
 package Tema1.Boletin2XML.ejercicio1.repositorio;
 
 import javax.xml.parsers.DocumentBuilder;
+
+
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
@@ -20,8 +22,10 @@ import org.xml.sax.SAXException;
 
 import Tema1.Boletin2XML.ejercicio1.modelo.Empleado;
 import Tema1.Boletin2XML.ejercicio1.modelo.Puesto;
-import Tema1.Boletin2XML.exception.EmpleadoException;
 import Tema1.ejemplosFicheros.EjemploFichero;
+import Tema1.Boletin2XML.ejercicio1.exception.*;
+
+
 
 import java.io.File;
 import java.io.IOException;
@@ -29,7 +33,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class UtilesXMLDom {
+
+public class UtilesXMLDom {//
 
 	private static final String RUTA_RESOURCES = "src/main/resources/";
 	private static final Logger logger = LogManager.getLogger(UtilesXMLDom.class);
@@ -107,6 +112,7 @@ public class UtilesXMLDom {
 			logger.error(e1.getMessage());
 		}
 	}
+	
 	private  Empleado getEmpleadoFromElement(Element elemento)
 	{
 		String nombre = elemento.getElementsByTagName("nombreApellidos").item(0).getTextContent();
@@ -176,10 +182,10 @@ public class UtilesXMLDom {
         return doc;
     }
 	
-	public Set<Empleado> lecturaXML() throws EmpleadoException {
+	public List<Empleado> lecturaXML() throws EmpleadoException {
 		Document doc = getDocumentFromXML("empleados.xml");
 		Element raiz = doc.getDocumentElement();
-		Set<Empleado> empleados = (Set<Empleado>) leerEmpleadosDesdeXML(raiz);
+		List<Empleado> empleados =  leerEmpleadosDesdeXML(raiz);
 		return empleados;
 	}
 	
